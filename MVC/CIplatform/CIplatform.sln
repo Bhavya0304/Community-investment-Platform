@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIplatformMWeb", "CIplatformMWeb\CIplatformMWeb.csproj", "{7E2F046D-42B2-4C84-94AF-4346BF358A6F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIplatformWeb", "CIplatformWeb\CIplatformWeb.csproj", "{42A7050B-97F1-4E96-968D-F9460CA7CF80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E2F046D-42B2-4C84-94AF-4346BF358A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E2F046D-42B2-4C84-94AF-4346BF358A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E2F046D-42B2-4C84-94AF-4346BF358A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E2F046D-42B2-4C84-94AF-4346BF358A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A7050B-97F1-4E96-968D-F9460CA7CF80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A7050B-97F1-4E96-968D-F9460CA7CF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A7050B-97F1-4E96-968D-F9460CA7CF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A7050B-97F1-4E96-968D-F9460CA7CF80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8BA6BDD9-A37A-4FFF-AD9A-E91120F06674}
+		SolutionGuid = {479C139F-1D08-4351-BF02-203D5F0E2107}
 	EndGlobalSection
 EndGlobal
