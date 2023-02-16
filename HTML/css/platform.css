@@ -1,0 +1,34 @@
+@media (min-width: 993px) {
+    .marginleft {
+        margin-left: 60px;
+    }
+    .hide {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .hide1 {
+        display: none;
+    }
+}
+
+.con2 {
+    /* border: 1px solid black; */
+    border-bottom-color: 1px solid black;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.margin {
+    margin: 0%;
+}
+
+.martop {
+    margin-top: 20px;
+}
+
+.bordernone {
+    border: none;
+}
