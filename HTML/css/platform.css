@@ -32,3 +32,21 @@
 .bordernone {
     border: none;
 }
+
+
+@media screen and (max-width:720px) {
+    .d-menu{
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+    .d-item{
+        padding: 0px;
+        border: none;
+        margin: 0;
+        /* border-bottom:1px solid black ; */
+        /* width: 50%; */
+        color: gray;
+        
+    }    
+}
