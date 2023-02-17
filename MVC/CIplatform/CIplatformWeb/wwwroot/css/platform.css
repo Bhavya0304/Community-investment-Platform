@@ -1,0 +1,106 @@
+﻿    @media (min-width: 992px) {
+        .marginleft {
+            margin-left: 60px;
+        }
+
+        .hide {
+            display: none;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .hide1 {
+            display: none;
+        }
+    }
+
+.con2
+{
+    /* border: 1px solid black; */
+    border-bottom-color: 1px solid black;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.margin {
+    margin: 0%;
+}
+
+.martop {
+    margin-top: 20px;
+}
+
+.bordernone {
+    border: none;
+}
+
+.Apply {
+    text-align: center;
+}
+
+.appbutton {
+    color: #F88634;
+    border-color: #F88634;
+    width: 133px;
+    width: 133px;
+    height: 48px;
+}
+
+@media screen and (max-width:720px) {
+    .d-menu {
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .d-item {
+        padding: 0px;
+        border: none;
+        margin: 0;
+        /* border-bottom:1px solid black ; */
+        /* width: 50%; */
+        color: gray;
+    }
+}
+
+.from_until {
+    display: block;
+    background-color: white;
+    border: solid 1px #E8E8E8;
+    text-align: center;
+    max-width: 273px;
+    height: 35px;
+    margin-top: -25px;
+    justify-content: center;
+    /* padding-top: 5px; */
+}
+
+/* for cards */
+
+.col-md-auto.py-2.px-2 {
+    border-radius: 25px;
+    border: 2px solid #d8d5d5;
+    font-size: 14px;
+    margin-top: -30px;
+}
+
+.card-title.mb-0 {
+    font-size: 1rem;
+}
+
+.card-text {
+    font-size: 0.75rem;
+}
+
+.card.main {
+    box-shadow: 0px 2px 10px 3px #d8d5d5;
+}
+
+.card-img-top {
+    max-height: 220px;
+}
+    
+.nav-link{
+    color: black;
+}
