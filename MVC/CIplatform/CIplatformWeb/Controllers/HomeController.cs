@@ -38,6 +38,14 @@ namespace CIplatformWeb.Controllers
         {
             return View();
         }
+        public IActionResult _Grid_View()
+        {
+            return View();
+        }
+        public IActionResult _List_View()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
