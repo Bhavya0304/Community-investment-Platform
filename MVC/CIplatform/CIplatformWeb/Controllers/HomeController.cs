@@ -38,6 +38,10 @@ namespace CIplatformWeb.Controllers
         {
             return View();
         }
+        public IActionResult Volunteering_Mission_Page()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

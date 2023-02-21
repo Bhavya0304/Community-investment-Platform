@@ -147,18 +147,22 @@ label_color {
 .dates {
     border-radius: 25px;
     border: 2px solid #d8d5d5;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: -30px;
+ 
 }
+
 .dates1 {
     border-radius: 25px;
     border: 2px solid #d8d5d5;
- /*   font-size: 14px;*/
-   /* margin-top: -30px;*/
+    font-size: 12px;
+}
+.ab{
+    font-size: 18px;
 }
 
 .card-title-font {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .ct1 {
