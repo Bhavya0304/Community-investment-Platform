@@ -86,12 +86,12 @@
             </div>
 
         </nav>
-
     </div>
     <!--
     <div id="main">
         <span style="font-size:30px;cursor:pointer " onclick="openNav() "> <img src="/images/filter.png " height="40 "></span>
     </div> -->
+
     <div class="container-fluid con2 border-bottom border-top">
         <div class="container">
             <nav class="navbar">
@@ -160,23 +160,43 @@
 
             </nav>
         </div>
-
     </div>
+
     <div class="container">
         <div class="row">
             <div class="col d-flex align-items-center">
                 <span class="ex"> Explore 72 missions</span>
             </div>
-            <div class="col d-flex justify-content-end button-toggles align-items-center">
-                <img class="grid active" alt="grid" src="/images/grid.png " onclick="toggleView(event);">
-                <img class="list " alt="list" src="/images/list.png" onclick="toggleView(event);">
+            <div class="col d-flex justify-content-end btn-group align-items-center">
+                <button id="grid" class="view">
+                    <img src="~/images/grid.png" />
+                </button>
+                <button id="list" class="view">
+                    <img src="~/images/list.png" />
+                </button>
             </div>
         </div>
     </div>
 
-@*<partial name="_Grid_View" />*@
+    @*<partial name="_Grid_View" />*@
 
-<partial name="_List_View" />
+    @*<partial name="_List_View" />*@
 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <div id="partialView">
+    </div>
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+            $("#partialView").load('/home/GetGridView');
+        });
+         $('#list').click(function() {
+            $("#partialView").load('/home/GetListView');
+        });
+         $('#grid').click(function() {
+            $("#partialView").load('/home/GetGridView');
+        });
+    </script>
 </div>
 

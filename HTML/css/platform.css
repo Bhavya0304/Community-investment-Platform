@@ -117,7 +117,6 @@ label_color {
     color: #F88634;
     border-color: #F88634;
     width: 133px;
-    width: 133px;
     height: 48px;
 }
 
@@ -150,6 +149,13 @@ label_color {
     margin-top: -30px;
 }
 
+.dates1 {
+    border-radius: 25px;
+    border: 2px solid #d8d5d5;
+    /*   font-size: 14px;*/
+    /* margin-top: -30px;*/
+}
+
 .card-title-font {
     font-size: 1rem;
 }
@@ -162,8 +168,17 @@ label_color {
     box-shadow: 0px 2px 10px 3px #d8d5d5;
 }
 
-.grid.card-img-top {
+.card-img-top {
     max-height: 220px;
+}
+
+.card-img-top1 {
+    max-height: 250px;
+    height: auto;
+}
+
+.nav-link {
+    color: black;
 }
 
 
@@ -189,9 +204,14 @@ label_color {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
-.grid.active {
-    box-shadow: 0px 5px 5px red
+.list:hover {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
+
+
+/*    .grid.active {
+        box-shadow: 0px 5px 5px red
+    }*/
 
 .list {
     padding: .5rem;

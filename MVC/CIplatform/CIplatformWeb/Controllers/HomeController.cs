@@ -38,19 +38,18 @@ namespace CIplatformWeb.Controllers
         {
             return View();
         }
-        public IActionResult _Grid_View()
-        {
-            return View();
-        }
-        public IActionResult _List_View()
-        {
-            return View();
-        }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+        public PartialViewResult GetGridView()
+        {
+            return PartialView("_Grid_View");
+        }
+        public PartialViewResult GetListView()
+        {
+            return PartialView("_List_View");
         }
     }
 }

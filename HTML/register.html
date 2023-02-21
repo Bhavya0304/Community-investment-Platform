@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid container-fluid_padding">
         <div class="row">
             <!---------- FIRST PART--------->
 
@@ -23,7 +23,7 @@
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="images/Grow-Trees-On-the-path-to-environment-sustainability-login.png" class="d-block w-100" alt="...">
+                            <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-login.png" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Sed ut perspiciatis unde omnis iste natus voluptatem</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -46,7 +46,7 @@
                     <div class="row h-100 justify-content-center align-items-center">
                         <div class="col-10 col-md-8 col-lg-12">
                             <!-- Form -->
-                            <form class="container mt-10" action="" method="post">
+                            <form class="container mt-10 px-2" action="" method="post">
                                 <!-- Input fields -->
                                 <div class="form-group my-2">
                                     <label for="username" class="title">First Name</label>
@@ -77,17 +77,17 @@
                                     <label for="password" class="title">Confirm Password</label>
                                     <input type="password" class="form-control password my-2" id="password" placeholder=" *** " name="password">
                                 </div>
-                                <div class="d-grid gap-2 my-3 login">
-                                    <button class="btn btn light login">Register</button>
+                                <div class="d-grid gap-2 my-3">
+                                    <button class="btn btn button_style">Register</button>
                                 </div>
                                 <!-- End input fields -->
                                 <div class="row">
-                                    <a href="./forgot_password.html" class="link-secondary my-2 text-center nounderline">Lost your Password?</a>
+                                    <a asp-action="Forgot_password" class="link-secondary my-2 text-center nounderline">Lost your Password?</a>
                                 </div>
 
                                 <div class="form-group text-center">
                                     <p class="title"> Already registered?
-                                        <span> <a href="./index.html" class="link-primary nounderline blue"> Login now</a> </span>
+                                        <span> <a asp-action="Index" class="link-primary nounderline blue"> Login now</a> </span>
                                     </p>
                                 </div>
                             </form>
